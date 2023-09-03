@@ -1,0 +1,14 @@
+2023-09-02 23:13:03,351 - INFO test_001_baiduindex.py [line:28]: 
+WebDriver 正在初始化...
+2023-09-02 23:13:08,994 - INFO test_001_baiduindex.py [line:30]: 打开链接: http://www.baidu.com...
+2023-09-02 23:13:09,142 - INFO test_001_baiduindex.py [line:35]: WebDriver 初始化完成！
+2023-09-02 23:13:09,143 - INFO BaiduIndex.py [line:27]: [====搜索操作====]
+2023-09-02 23:13:09,143 - INFO BasePage.py [line:39]: 等待元素搜索框, 定位方式:('id', 'kw')
+2023-09-02 23:13:09,188 - INFO BasePage.py [line:44]: 等待搜索框, 时长: 0:00:00.044778
+2023-09-02 23:13:09,188 - INFO BasePage.py [line:85]: 查找None元素定位, 定位方式('id', 'kw')
+2023-09-02 23:13:09,194 - INFO BasePage.py [line:104]: 在搜索框输入呵呵, 元素定位: ('id', 'kw')
+2023-09-02 23:13:09,273 - INFO BasePage.py [line:39]: 等待元素搜索按钮, 定位方式:('id', 'su')
+2023-09-02 23:13:09,323 - INFO BasePage.py [line:44]: 等待搜索按钮, 时长: 0:00:00.049754
+2023-09-02 23:13:09,323 - INFO BasePage.py [line:85]: 查找搜索按钮元素定位, 定位方式('id', 'su')
+2023-09-02 23:13:09,332 - INFO BasePage.py [line:155]: 点击"搜索按钮",元素定位:('id', 'su')
+2023-09-02 23:13:14,544 - INFO test_001_baiduindex.py [line:38]: WebDriver 成功退出...

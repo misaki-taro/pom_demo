@@ -1,0 +1,31 @@
+2023-09-02 23:17:22,695 - INFO test_001_baiduindex.py [line:28]: 
+WebDriver 正在初始化...
+2023-09-02 23:17:25,254 - INFO test_001_baiduindex.py [line:30]: 打开链接: http://www.baidu.com...
+2023-09-02 23:17:25,375 - INFO test_001_baiduindex.py [line:35]: WebDriver 初始化完成！
+2023-09-02 23:17:25,376 - INFO BaiduIndex.py [line:27]: 【===搜索操作===】
+2023-09-02 23:17:25,377 - INFO BasePage.py [line:39]: 等待元素搜索框, 定位方式:('id', 'kw')
+2023-09-02 23:17:25,410 - INFO BasePage.py [line:44]: 等待搜索框, 时长: 0:00:00.033455
+2023-09-02 23:17:25,410 - INFO BasePage.py [line:85]: 查找None元素定位, 定位方式('id', 'kw')
+2023-09-02 23:17:25,430 - INFO BasePage.py [line:104]: 在搜索框输入阿崔, 元素定位: ('id', 'kw')
+2023-09-02 23:17:25,502 - INFO BasePage.py [line:85]: 查找搜索框元素定位, 定位方式('id', 'kw')
+2023-09-02 23:17:25,520 - INFO BasePage.py [line:141]: 清除"搜索框",元素定位:('id', 'kw')
+2023-09-02 23:17:25,547 - INFO BasePage.py [line:85]: 查找None元素定位, 定位方式('id', 'kw')
+2023-09-02 23:17:25,553 - INFO BasePage.py [line:104]: 在搜索框输入哈哈, 元素定位: ('id', 'kw')
+2023-09-02 23:17:25,636 - INFO BasePage.py [line:39]: 等待元素"百度一下"搜索按钮, 定位方式:('id', 'su')
+2023-09-02 23:17:25,662 - INFO BasePage.py [line:44]: 等待"百度一下"搜索按钮, 时长: 0:00:00.025863
+2023-09-02 23:17:25,663 - INFO BasePage.py [line:85]: 查找"百度一下"搜索按钮元素定位, 定位方式('id', 'su')
+2023-09-02 23:17:25,673 - INFO BasePage.py [line:155]: 点击""百度一下"搜索按钮",元素定位:('id', 'su')
+2023-09-02 23:17:28,769 - INFO BaiduIndex.py [line:27]: 【===搜索操作===】
+2023-09-02 23:17:28,770 - INFO BasePage.py [line:39]: 等待元素搜索框, 定位方式:('id', 'kw')
+2023-09-02 23:17:28,782 - INFO BasePage.py [line:44]: 等待搜索框, 时长: 0:00:00.011615
+2023-09-02 23:17:28,782 - INFO BasePage.py [line:85]: 查找None元素定位, 定位方式('id', 'kw')
+2023-09-02 23:17:28,786 - INFO BasePage.py [line:104]: 在搜索框输入阿崔, 元素定位: ('id', 'kw')
+2023-09-02 23:17:28,835 - INFO BasePage.py [line:85]: 查找搜索框元素定位, 定位方式('id', 'kw')
+2023-09-02 23:17:28,845 - INFO BasePage.py [line:141]: 清除"搜索框",元素定位:('id', 'kw')
+2023-09-02 23:17:29,013 - INFO BasePage.py [line:85]: 查找None元素定位, 定位方式('id', 'kw')
+2023-09-02 23:17:29,018 - INFO BasePage.py [line:104]: 在搜索框输入呵呵, 元素定位: ('id', 'kw')
+2023-09-02 23:17:29,085 - INFO BasePage.py [line:39]: 等待元素"百度一下"搜索按钮, 定位方式:('id', 'su')
+2023-09-02 23:17:29,106 - INFO BasePage.py [line:44]: 等待"百度一下"搜索按钮, 时长: 0:00:00.019585
+2023-09-02 23:17:29,106 - INFO BasePage.py [line:85]: 查找"百度一下"搜索按钮元素定位, 定位方式('id', 'su')
+2023-09-02 23:17:29,114 - INFO BasePage.py [line:155]: 点击""百度一下"搜索按钮",元素定位:('id', 'su')
+2023-09-02 23:17:34,321 - INFO test_001_baiduindex.py [line:38]: WebDriver 成功退出...
