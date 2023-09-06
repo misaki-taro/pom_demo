@@ -1,7 +1,7 @@
 '''
 Author: Misaki
 Date: 2023-09-02 22:53:07
-LastEditTime: 2023-09-02 23:12:51
+LastEditTime: 2023-09-03 17:02:31
 LastEditors: Misaki
 Description: 
 '''
@@ -14,7 +14,6 @@ from selenium import webdriver
 
 import sys
 
-print(sys.path)
 
 from PageObject.BaiduIndex import BaiduIndex
 
@@ -40,7 +39,6 @@ def init():
 
 class TestBaiduSearch:
 
-    @pytest.mark.baidu_search
     @pytest.mark.parametrize("key_word", [
         "哈哈",
         "呵呵",

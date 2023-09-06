@@ -1,0 +1,72 @@
+2023-09-03 19:00:08,256 - INFO test_001_loginIndex.py [line:26]: 
+WebDriver 正在初始化...
+2023-09-03 19:00:08,384 - INFO test_001_loginIndex.py [line:28]: 打开链接: http://127.0.0.1:8000/login/...
+2023-09-03 19:00:08,504 - INFO test_001_loginIndex.py [line:33]: WebDriver 初始化完成！
+2023-09-03 19:00:08,506 - INFO MBugIndex.py [line:22]: [=====登录操作=====]
+2023-09-03 19:00:08,507 - INFO BasePage.py [line:39]: 等待元素用户名框, 定位方式:('id', 'id_username')
+2023-09-03 19:00:08,537 - INFO BasePage.py [line:44]: 等待用户名框, 时长: 0:00:00.030519
+2023-09-03 19:00:08,537 - INFO BasePage.py [line:39]: 等待元素密码框, 定位方式:('id', 'id_password')
+2023-09-03 19:00:08,562 - INFO BasePage.py [line:44]: 等待密码框, 时长: 0:00:00.023999
+2023-09-03 19:00:08,562 - INFO BasePage.py [line:39]: 等待元素验证码框, 定位方式:('id', 'id_code')
+2023-09-03 19:00:08,578 - INFO BasePage.py [line:44]: 等待验证码框, 时长: 0:00:00.016000
+2023-09-03 19:00:08,578 - INFO BasePage.py [line:85]: 查找用户名框元素定位, 定位方式('id', 'id_username')
+2023-09-03 19:00:08,583 - INFO BasePage.py [line:141]: 清除"用户名框",元素定位:('id', 'id_username')
+2023-09-03 19:00:08,611 - INFO BasePage.py [line:85]: 查找密码框元素定位, 定位方式('id', 'id_password')
+2023-09-03 19:00:08,616 - INFO BasePage.py [line:141]: 清除"密码框",元素定位:('id', 'id_password')
+2023-09-03 19:00:08,635 - INFO BasePage.py [line:85]: 查找验证码框元素定位, 定位方式('id', 'id_code')
+2023-09-03 19:00:08,640 - INFO BasePage.py [line:141]: 清除"验证码框",元素定位:('id', 'id_code')
+2023-09-03 19:00:08,659 - INFO BasePage.py [line:85]: 查找用户名框元素定位, 定位方式('id', 'id_username')
+2023-09-03 19:00:08,663 - INFO BasePage.py [line:104]: 在用户名框输入13713676304, 元素定位: ('id', 'id_username')
+2023-09-03 19:00:08,804 - INFO BasePage.py [line:85]: 查找密码框元素定位, 定位方式('id', 'id_password')
+2023-09-03 19:00:08,818 - INFO BasePage.py [line:104]: 在密码框输入12345678, 元素定位: ('id', 'id_password')
+2023-09-03 19:00:08,918 - INFO BasePage.py [line:85]: 查找验证码框元素定位, 定位方式('id', 'id_code')
+2023-09-03 19:00:08,940 - INFO BasePage.py [line:104]: 在验证码框输入1234, 元素定位: ('id', 'id_code')
+2023-09-03 19:00:09,026 - INFO BasePage.py [line:39]: 等待元素登录按钮, 定位方式:('id', 'btnSubmit')
+2023-09-03 19:00:09,062 - INFO BasePage.py [line:44]: 等待登录按钮, 时长: 0:00:00.035856
+2023-09-03 19:00:09,063 - INFO BasePage.py [line:85]: 查找登录按钮元素定位, 定位方式('id', 'btnSubmit')
+2023-09-03 19:00:09,080 - INFO BasePage.py [line:155]: 点击"登录按钮",元素定位:('id', 'btnSubmit')
+2023-09-03 19:00:12,364 - INFO BasePage.py [line:85]: 查找登出元素定位, 定位方式('xpath', '//*[@id="bs-example-navbar-collapse-1"]/ul[2]/li/ul/li[3]/a')
+2023-09-03 19:00:12,373 - INFO BasePage.py [line:155]: 点击"登出",元素定位:('xpath', '//*[@id="bs-example-navbar-collapse-1"]/ul[2]/li/ul/li[3]/a')
+2023-09-03 19:00:22,384 - ERROR BasePage.py [line:159]: "登出"点击失败
+Traceback (most recent call last):
+  File "C:\Users\59723\Desktop\z\pom_demo\Common\BasePage.py", line 157, in click_element
+    ele.click()
+  File "C:\Users\59723\miniconda3\envs\django\lib\site-packages\selenium\webdriver\remote\webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\59723\miniconda3\envs\django\lib\site-packages\selenium\webdriver\remote\webelement.py", line 403, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\59723\miniconda3\envs\django\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\59723\miniconda3\envs\django\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: MicrosoftEdge=116.0.1938.69)
+Stacktrace:
+	GetHandleVerifier [0x00007FF729043DB2+61490]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF728FD6002+740642]
+	(No symbol) [0x00007FF728DAB6E0]
+	(No symbol) [0x00007FF728DF4650]
+	(No symbol) [0x00007FF728DE75AC]
+	(No symbol) [0x00007FF728E1390A]
+	(No symbol) [0x00007FF728DE7021]
+	(No symbol) [0x00007FF728DE6ECD]
+	(No symbol) [0x00007FF728E13C40]
+	(No symbol) [0x00007FF728DE7021]
+	(No symbol) [0x00007FF728E2CE21]
+	(No symbol) [0x00007FF728E136E3]
+	(No symbol) [0x00007FF728DE5EAA]
+	(No symbol) [0x00007FF728DE518B]
+	(No symbol) [0x00007FF728DE6634]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF729208D69+1207369]
+	(No symbol) [0x00007FF728E65304]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF728F290F1+32273]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF728F219E9+1801]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF729207944+1202212]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF728FDE998+19784]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF728FDAE54+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF728FDAF86+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF728FCF451+713073]
+	BaseThreadInitThunk [0x00007FFCDEE526AD+29]
+	RtlUserThreadStart [0x00007FFCE108AA68+40]
+
+2023-09-03 19:00:24,620 - INFO test_001_loginIndex.py [line:36]: WebDriver 成功退出...

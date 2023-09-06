@@ -1,0 +1,6 @@
+2023-09-03 17:28:45,281 - INFO test_001_loginIndex.py [line:26]: 
+WebDriver 正在初始化...
+2023-09-03 17:28:45,417 - INFO test_001_loginIndex.py [line:28]: 打开链接: http://127.0.0.1:8000/login/...
+2023-09-03 17:28:45,535 - INFO test_001_loginIndex.py [line:33]: WebDriver 初始化完成！
+2023-09-03 17:28:45,539 - INFO MBugIndex.py [line:22]: [=====登录操作=====]
+2023-09-03 17:29:01,619 - INFO BasePage.py [line:39]: 等待元素None, 定位方式:('id', 'id_username')

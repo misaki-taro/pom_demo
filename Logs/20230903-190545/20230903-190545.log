@@ -1,0 +1,30 @@
+2023-09-03 19:05:48,437 - INFO test_001_loginIndex.py [line:26]: 
+WebDriver 正在初始化...
+2023-09-03 19:05:48,576 - INFO test_001_loginIndex.py [line:28]: 打开链接: http://127.0.0.1:8000/login/...
+2023-09-03 19:05:48,695 - INFO test_001_loginIndex.py [line:33]: WebDriver 初始化完成！
+2023-09-03 19:05:48,697 - INFO MBugIndex.py [line:22]: [=====登录操作=====]
+2023-09-03 19:05:48,697 - INFO BasePage.py [line:39]: 等待元素用户名框, 定位方式:('id', 'id_username')
+2023-09-03 19:05:48,738 - INFO BasePage.py [line:44]: 等待用户名框, 时长: 0:00:00.041502
+2023-09-03 19:05:48,739 - INFO BasePage.py [line:39]: 等待元素密码框, 定位方式:('id', 'id_password')
+2023-09-03 19:05:48,783 - INFO BasePage.py [line:44]: 等待密码框, 时长: 0:00:00.042999
+2023-09-03 19:05:48,783 - INFO BasePage.py [line:39]: 等待元素验证码框, 定位方式:('id', 'id_code')
+2023-09-03 19:05:48,811 - INFO BasePage.py [line:44]: 等待验证码框, 时长: 0:00:00.026864
+2023-09-03 19:05:48,812 - INFO BasePage.py [line:85]: 查找用户名框元素定位, 定位方式('id', 'id_username')
+2023-09-03 19:05:48,821 - INFO BasePage.py [line:141]: 清除"用户名框",元素定位:('id', 'id_username')
+2023-09-03 19:05:48,865 - INFO BasePage.py [line:85]: 查找密码框元素定位, 定位方式('id', 'id_password')
+2023-09-03 19:05:48,874 - INFO BasePage.py [line:141]: 清除"密码框",元素定位:('id', 'id_password')
+2023-09-03 19:05:48,904 - INFO BasePage.py [line:85]: 查找验证码框元素定位, 定位方式('id', 'id_code')
+2023-09-03 19:05:48,911 - INFO BasePage.py [line:141]: 清除"验证码框",元素定位:('id', 'id_code')
+2023-09-03 19:05:48,935 - INFO BasePage.py [line:85]: 查找用户名框元素定位, 定位方式('id', 'id_username')
+2023-09-03 19:05:48,943 - INFO BasePage.py [line:104]: 在用户名框输入13713676304, 元素定位: ('id', 'id_username')
+2023-09-03 19:05:49,044 - INFO BasePage.py [line:85]: 查找密码框元素定位, 定位方式('id', 'id_password')
+2023-09-03 19:05:49,061 - INFO BasePage.py [line:104]: 在密码框输入12345678, 元素定位: ('id', 'id_password')
+2023-09-03 19:05:49,134 - INFO BasePage.py [line:85]: 查找验证码框元素定位, 定位方式('id', 'id_code')
+2023-09-03 19:05:49,147 - INFO BasePage.py [line:104]: 在验证码框输入1234, 元素定位: ('id', 'id_code')
+2023-09-03 19:05:49,232 - INFO BasePage.py [line:39]: 等待元素登录按钮, 定位方式:('id', 'btnSubmit')
+2023-09-03 19:05:49,275 - INFO BasePage.py [line:44]: 等待登录按钮, 时长: 0:00:00.043263
+2023-09-03 19:05:49,275 - INFO BasePage.py [line:85]: 查找登录按钮元素定位, 定位方式('id', 'btnSubmit')
+2023-09-03 19:05:49,301 - INFO BasePage.py [line:155]: 点击"登录按钮",元素定位:('id', 'btnSubmit')
+2023-09-03 19:05:52,484 - INFO BasePage.py [line:85]: 查找下拉框元素定位, 定位方式('css selector', '#bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right > li > a')
+2023-09-03 19:05:52,493 - INFO BasePage.py [line:155]: 点击"下拉框",元素定位:('css selector', '#bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right > li > a')
+2023-09-03 19:05:54,700 - INFO test_001_loginIndex.py [line:36]: WebDriver 成功退出...

@@ -1,0 +1,72 @@
+2023-09-05 17:22:14,559 - INFO test_001_loginIndex.py [line:28]: 
+WebDriver 正在初始化...
+2023-09-05 17:22:14,559 - INFO test_001_loginIndex.py [line:28]: 
+WebDriver 正在初始化...
+2023-09-05 17:22:14,715 - INFO test_001_loginIndex.py [line:30]: 打开链接: http://127.0.0.1:8000/login/...
+2023-09-05 17:22:14,715 - INFO test_001_loginIndex.py [line:30]: 打开链接: http://127.0.0.1:8000/login/...
+2023-09-05 17:22:14,841 - INFO test_001_loginIndex.py [line:35]: WebDriver 初始化完成！
+2023-09-05 17:22:14,841 - INFO test_001_loginIndex.py [line:35]: WebDriver 初始化完成！
+2023-09-05 17:22:14,846 - INFO MBugIndex.py [line:26]: [=====登录操作=====]
+2023-09-05 17:22:14,846 - INFO MBugIndex.py [line:26]: [=====登录操作=====]
+2023-09-05 17:22:14,846 - INFO BasePage.py [line:39]: 等待元素用户名框, 定位方式:('id', 'id_username')
+2023-09-05 17:22:14,846 - INFO BasePage.py [line:39]: 等待元素用户名框, 定位方式:('id', 'id_username')
+2023-09-05 17:22:14,886 - INFO BasePage.py [line:44]: 等待用户名框, 时长: 0:00:00.038570
+2023-09-05 17:22:14,886 - INFO BasePage.py [line:44]: 等待用户名框, 时长: 0:00:00.038570
+2023-09-05 17:22:14,886 - INFO BasePage.py [line:39]: 等待元素密码框, 定位方式:('id', 'id_password')
+2023-09-05 17:22:14,886 - INFO BasePage.py [line:39]: 等待元素密码框, 定位方式:('id', 'id_password')
+2023-09-05 17:22:14,915 - INFO BasePage.py [line:44]: 等待密码框, 时长: 0:00:00.027578
+2023-09-05 17:22:14,915 - INFO BasePage.py [line:44]: 等待密码框, 时长: 0:00:00.027578
+2023-09-05 17:22:14,915 - INFO BasePage.py [line:39]: 等待元素验证码框, 定位方式:('id', 'id_code')
+2023-09-05 17:22:14,915 - INFO BasePage.py [line:39]: 等待元素验证码框, 定位方式:('id', 'id_code')
+2023-09-05 17:22:14,937 - INFO BasePage.py [line:44]: 等待验证码框, 时长: 0:00:00.021584
+2023-09-05 17:22:14,937 - INFO BasePage.py [line:44]: 等待验证码框, 时长: 0:00:00.021584
+2023-09-05 17:22:14,938 - INFO BasePage.py [line:85]: 查找用户名框元素定位, 定位方式('id', 'id_username')
+2023-09-05 17:22:14,938 - INFO BasePage.py [line:85]: 查找用户名框元素定位, 定位方式('id', 'id_username')
+2023-09-05 17:22:14,945 - INFO BasePage.py [line:141]: 清除"用户名框",元素定位:('id', 'id_username')
+2023-09-05 17:22:14,945 - INFO BasePage.py [line:141]: 清除"用户名框",元素定位:('id', 'id_username')
+2023-09-05 17:22:14,986 - INFO BasePage.py [line:85]: 查找密码框元素定位, 定位方式('id', 'id_password')
+2023-09-05 17:22:14,986 - INFO BasePage.py [line:85]: 查找密码框元素定位, 定位方式('id', 'id_password')
+2023-09-05 17:22:14,994 - INFO BasePage.py [line:141]: 清除"密码框",元素定位:('id', 'id_password')
+2023-09-05 17:22:14,994 - INFO BasePage.py [line:141]: 清除"密码框",元素定位:('id', 'id_password')
+2023-09-05 17:22:15,021 - INFO BasePage.py [line:85]: 查找验证码框元素定位, 定位方式('id', 'id_code')
+2023-09-05 17:22:15,021 - INFO BasePage.py [line:85]: 查找验证码框元素定位, 定位方式('id', 'id_code')
+2023-09-05 17:22:15,028 - INFO BasePage.py [line:141]: 清除"验证码框",元素定位:('id', 'id_code')
+2023-09-05 17:22:15,028 - INFO BasePage.py [line:141]: 清除"验证码框",元素定位:('id', 'id_code')
+2023-09-05 17:22:15,053 - INFO BasePage.py [line:85]: 查找用户名框元素定位, 定位方式('id', 'id_username')
+2023-09-05 17:22:15,053 - INFO BasePage.py [line:85]: 查找用户名框元素定位, 定位方式('id', 'id_username')
+2023-09-05 17:22:15,062 - INFO BasePage.py [line:104]: 在用户名框输入597234156@qq.com, 元素定位: ('id', 'id_username')
+2023-09-05 17:22:15,062 - INFO BasePage.py [line:104]: 在用户名框输入597234156@qq.com, 元素定位: ('id', 'id_username')
+2023-09-05 17:22:15,205 - INFO BasePage.py [line:85]: 查找密码框元素定位, 定位方式('id', 'id_password')
+2023-09-05 17:22:15,205 - INFO BasePage.py [line:85]: 查找密码框元素定位, 定位方式('id', 'id_password')
+2023-09-05 17:22:15,218 - INFO BasePage.py [line:104]: 在密码框输入12345678, 元素定位: ('id', 'id_password')
+2023-09-05 17:22:15,218 - INFO BasePage.py [line:104]: 在密码框输入12345678, 元素定位: ('id', 'id_password')
+2023-09-05 17:22:15,305 - INFO BasePage.py [line:85]: 查找验证码框元素定位, 定位方式('id', 'id_code')
+2023-09-05 17:22:15,305 - INFO BasePage.py [line:85]: 查找验证码框元素定位, 定位方式('id', 'id_code')
+2023-09-05 17:22:15,319 - INFO BasePage.py [line:104]: 在验证码框输入1234, 元素定位: ('id', 'id_code')
+2023-09-05 17:22:15,319 - INFO BasePage.py [line:104]: 在验证码框输入1234, 元素定位: ('id', 'id_code')
+2023-09-05 17:22:15,402 - INFO BasePage.py [line:39]: 等待元素登录按钮, 定位方式:('id', 'btnSubmit')
+2023-09-05 17:22:15,402 - INFO BasePage.py [line:39]: 等待元素登录按钮, 定位方式:('id', 'btnSubmit')
+2023-09-05 17:22:15,437 - INFO BasePage.py [line:44]: 等待登录按钮, 时长: 0:00:00.033599
+2023-09-05 17:22:15,437 - INFO BasePage.py [line:44]: 等待登录按钮, 时长: 0:00:00.033599
+2023-09-05 17:22:15,438 - INFO BasePage.py [line:85]: 查找登录按钮元素定位, 定位方式('id', 'btnSubmit')
+2023-09-05 17:22:15,438 - INFO BasePage.py [line:85]: 查找登录按钮元素定位, 定位方式('id', 'btnSubmit')
+2023-09-05 17:22:15,451 - INFO BasePage.py [line:155]: 点击"登录按钮",元素定位:('id', 'btnSubmit')
+2023-09-05 17:22:15,451 - INFO BasePage.py [line:155]: 点击"登录按钮",元素定位:('id', 'btnSubmit')
+2023-09-05 17:22:18,752 - INFO BasePage.py [line:39]: 等待元素新建项目, 定位方式:('xpath', '/html/body/div[1]/a')
+2023-09-05 17:22:18,752 - INFO BasePage.py [line:39]: 等待元素新建项目, 定位方式:('xpath', '/html/body/div[1]/a')
+2023-09-05 17:22:18,780 - INFO BasePage.py [line:44]: 等待新建项目, 时长: 0:00:00.027915
+2023-09-05 17:22:18,780 - INFO BasePage.py [line:44]: 等待新建项目, 时长: 0:00:00.027915
+2023-09-05 17:22:18,780 - INFO BasePage.py [line:85]: 查找新建项目元素定位, 定位方式('xpath', '/html/body/div[1]/a')
+2023-09-05 17:22:18,780 - INFO BasePage.py [line:85]: 查找新建项目元素定位, 定位方式('xpath', '/html/body/div[1]/a')
+2023-09-05 17:22:18,789 - INFO BasePage.py [line:155]: 点击"新建项目",元素定位:('xpath', '/html/body/div[1]/a')
+2023-09-05 17:22:18,789 - INFO BasePage.py [line:155]: 点击"新建项目",元素定位:('xpath', '/html/body/div[1]/a')
+2023-09-05 17:22:18,826 - INFO BasePage.py [line:39]: 等待元素项目名称, 定位方式:('id', 'id_name')
+2023-09-05 17:22:18,826 - INFO BasePage.py [line:39]: 等待元素项目名称, 定位方式:('id', 'id_name')
+2023-09-05 17:22:19,366 - INFO BasePage.py [line:44]: 等待项目名称, 时长: 0:00:00.539268
+2023-09-05 17:22:19,366 - INFO BasePage.py [line:44]: 等待项目名称, 时长: 0:00:00.539268
+2023-09-05 17:22:19,366 - INFO BasePage.py [line:85]: 查找项目名称元素定位, 定位方式('id', 'id_name')
+2023-09-05 17:22:19,366 - INFO BasePage.py [line:85]: 查找项目名称元素定位, 定位方式('id', 'id_name')
+2023-09-05 17:22:19,373 - INFO BasePage.py [line:104]: 在项目名称输入bb, 元素定位: ('id', 'id_name')
+2023-09-05 17:22:19,373 - INFO BasePage.py [line:104]: 在项目名称输入bb, 元素定位: ('id', 'id_name')
+2023-09-05 17:22:39,758 - INFO BasePage.py [line:85]: 查找颜色1元素定位, 定位方式('id', 'id_color_1')
+2023-09-05 17:22:39,758 - INFO BasePage.py [line:85]: 查找颜色1元素定位, 定位方式('id', 'id_color_1')
